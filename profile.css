@@ -120,3 +120,17 @@ li {
     margin-left: 25px;
     margin-right: 75px;
 }
+
+.sub-header {
+    margin-left: 125px;
+    font-family: roboto mono, sans-serif;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.project-img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
