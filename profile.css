@@ -28,6 +28,10 @@
     color: white;
 }
 
+#last-link {
+    border: none;
+}
+
 .nav-link:hover {
     color: black;
     text-decoration: underline;
@@ -128,8 +132,8 @@ li {
     margin-bottom: 60px;
 }
 
-.project-img {
-    width: 90%;
+.project-img, .cert-img {
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
