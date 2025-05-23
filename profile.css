@@ -104,9 +104,9 @@ h1 {
 
 .text-content {
     font-family: roboto, sans-serif;
-    margin-left: 50px;
+    margin-left: 10%;
     margin-bottom: 60px;
-    margin-right: 50px;
+    margin-right: 10%;
 }
 
 #work-history-listed {
@@ -118,23 +118,65 @@ li {
     font-size: 20px;
     font-family: roboto mono, sans-serif;
     font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .list-content {
-    margin-left: 25px;
-    margin-right: 75px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .sub-header {
-    margin-left: 125px;
+    margin-left: 15%;
     font-family: roboto mono, sans-serif;
     font-weight: bold;
     margin-bottom: 60px;
 }
 
-.project-img, .cert-img {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.project-img {
+    float: right;
+    margin: 25px 10% 25px 25px;
+    width: 30%;
+    clear: right;
+}
+
+.cert-img {
+    width: 65%;
+    margin: 25px auto 25px auto;
     display: flex;
+}
+
+#split {
+    border: 2px solid black;
+    margin-bottom: 0;
+}
+
+#contact-me {
+    background-color: lightgray;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: black;
+    font-family: roboto;
+}
+
+#contact-header {
+    text-decoration underline;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact-link {
+    color: black;
+}
+
+.contact-link:hover {
+    color: green;
 }
