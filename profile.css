@@ -85,16 +85,6 @@ h1 {
     font-family: cinzel, sans-serif;
 }
 
-@media screen and (min-width: 1000px) {
-    .header {
-        font-size: 35px;
-    }
-    
-    .text-content {
-        font-size: 25px;
-    }
-}
-
 .header {
     font-family: roboto mono, sans-serif;
     text-align: center;
@@ -147,6 +137,10 @@ li {
     display: flex;
 }
 
+#project-header {
+    clear: right;
+}
+
 #split {
     border: 2px solid black;
     margin-bottom: 0;
@@ -161,7 +155,6 @@ li {
 }
 
 #contact-header {
-    text-decoration underline;
     text-align: center;
     font-weight: bold;
     font-size: 40px;
@@ -179,4 +172,77 @@ li {
 
 .contact-link:hover {
     color: green;
+}
+
+#nav-menu-btn {
+    padding: 5px 12px 5px 12px;
+    border: none;
+    border-radius: 15px;
+    background: url("https://res.cloudinary.com/dbuwekmex/image/upload/v1748118864/Hamburger_Menu_Filled-512_wuz0vp.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#nav-menu-btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.active {
+    position: absolute;
+    top: 55px;
+    padding: 50px;
+    background-color: rgba(55, 55, 55, 0.8);
+    right: 0;
+    left: 0;
+}
+
+#nav-list {
+    color: white;
+    list-style: none;
+}
+
+#nav-list > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .nav-link {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    #collapsed-nav-menu {
+        display: none;
+    }
+
+    #nav-menu-btn {
+        display: none;
+    }
+
+    .text-content {
+        font-size: 20px;
+    }
+
+    .list-content {
+        font-size: 20px;
+    }
+
+    .header {
+        font-size: 30px;
+    }
+
+    .sub-header {
+        font-size: 25px;
+    }
+
+    .cert-img {
+        width: 50%;
+    }
 }
