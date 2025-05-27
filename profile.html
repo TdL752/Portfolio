@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="nav">
+        <nav id="nav">
             <button type="button" id="dark" class="mode-btn">Dark</button>
             <a class="nav-link" href="#intro">
                 About me
@@ -26,8 +26,38 @@
             <a class="nav-link" href="#contact-me" id="last-link">
                 Contact Me
             </a>
+            <button type="button" id="nav-menu-btn"></button>
+            <div id="collapsed-nav-menu" class="hidden">
+                <ul id="nav-list">
+                    <li>
+                        <a class="collapsed-link" href="#intro">
+                            About me
+                        </a>
+                    </li>
+                    <li>
+                        <a class="collapsed-link" href="#work-history">
+                            Work History
+                        </a>
+                    </li>
+                    <li>
+                        <a class="collapsed-link" href="#projects">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a class="collapsed-link" href="#certifications">
+                            Certifications
+                        </a>
+                    </li>
+                    <li>
+                        <a class="collapsed-link" href="#contact-me">
+                            Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <button type="button" id="light" class="mode-btn">Light</button>
-        </div>
+        </nav>
         <div id="title-card">
             <h1>
                 Tyler Lasek
@@ -65,7 +95,7 @@
                         Reporting problems with building maintenance was a core responsibility and something that was practiced almost daily.
                         Report writing followed specific guidelines set by the company we were contracted to work with, these guidelines involved date and times of incidents and detailed descriptions of said incidents.
                         My involvement in report writing decreased a backlog of problems that had been forgotten about for over three years.
-                        In this position my superiors and I saw an increase in morale in the workspace from the start of my role.
+                        In this position my superiors and I saw an increase in morale in the workplace from the start of my role.
                     </p>
                     <li>
                         Olde Annville Custom Cabinetry
@@ -118,7 +148,7 @@
                 A project that will certainly test anyone's abilities with computation in JavaScript; I decided to take it a step further by creating a functional keypad with HTML, CSS and JavaScript.
                 This keypad would inject numbers into a number input defined in HTML, featuring cancel and purchase buttons in the keypad.
             </p>
-            <h2 class="header">
+            <h2 class="header" id="project-header">
                 More projects will be completed and added to this list
             </h2>
         </div>
