@@ -85,16 +85,6 @@ h1 {
     font-family: cinzel, sans-serif;
 }
 
-@media screen and (min-width: 1000px) {
-    .header {
-        font-size: 35px;
-    }
-    
-    .text-content {
-        font-size: 25px;
-    }
-}
-
 .header {
     font-family: roboto mono, sans-serif;
     text-align: center;
@@ -104,9 +94,9 @@ h1 {
 
 .text-content {
     font-family: roboto, sans-serif;
-    margin-left: 50px;
+    margin-left: 10%;
     margin-bottom: 60px;
-    margin-right: 50px;
+    margin-right: 10%;
 }
 
 #work-history-listed {
@@ -118,9 +108,17 @@ li {
     font-size: 20px;
     font-family: roboto mono, sans-serif;
     font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .list-content {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.sub-header {
+    margin-left: 15%;
     margin-left: 25px;
     margin-right: 75px;
 }
@@ -130,6 +128,129 @@ li {
     font-family: roboto mono, sans-serif;
     font-weight: bold;
     margin-bottom: 60px;
+}
+
+.project-img {
+    float: right;
+    margin: 25px 10% 25px 25px;
+    width: 30%;
+    clear: right;
+}
+
+.cert-img {
+    width: 65%;
+    margin: 25px auto 25px auto;
+    display: flex;
+}
+
+#project-header {
+    clear: right;
+}
+
+#split {
+    border: 2px solid black;
+    margin-bottom: 0;
+}
+
+#contact-me {
+    background-color: lightgray;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: black;
+    font-family: roboto;
+}
+
+#contact-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact-link {
+    color: black;
+}
+
+.contact-link:hover {
+    color: green;
+}
+
+#nav-menu-btn {
+    padding: 5px 12px 5px 12px;
+    border: none;
+    border-radius: 15px;
+    background: url("https://res.cloudinary.com/dbuwekmex/image/upload/v1748118864/Hamburger_Menu_Filled-512_wuz0vp.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#nav-menu-btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.active {
+    position: absolute;
+    top: 55px;
+    padding: 50px;
+    background-color: rgba(55, 55, 55, 0.8);
+    right: 0;
+    left: 0;
+}
+
+#nav-list {
+    color: white;
+    list-style: none;
+}
+
+#nav-list > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .nav-link {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    #collapsed-nav-menu {
+        display: none;
+    }
+
+    #nav-menu-btn {
+        display: none;
+    }
+
+    .text-content {
+        font-size: 20px;
+    }
+
+    .list-content {
+        font-size: 20px;
+    }
+
+    .header {
+        font-size: 30px;
+    }
+
+    .sub-header {
+        font-size: 25px;
+    }
+
+    .cert-img {
+        width: 50%;
+    }
 }
 
 .project-img, .cert-img {
