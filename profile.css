@@ -119,6 +119,12 @@ li {
 
 .sub-header {
     margin-left: 15%;
+    margin-left: 25px;
+    margin-right: 75px;
+}
+
+.sub-header {
+    margin-left: 125px;
     font-family: roboto mono, sans-serif;
     font-weight: bold;
     margin-bottom: 60px;
@@ -135,6 +141,10 @@ li {
     width: 65%;
     margin: 25px auto 25px auto;
     display: flex;
+}
+
+#project-header {
+    clear: right;
 }
 
 #project-header {
