@@ -117,38 +117,37 @@ li {
     margin-right: 15%;
 }
 
-.sub-header {
-    margin-left: 15%;
-    margin-left: 25px;
-    margin-right: 75px;
-}
-
-.sub-header {
-    margin-left: 125px;
+.project-header {
     font-family: roboto mono, sans-serif;
     font-weight: bold;
     margin-bottom: 60px;
+    text-align: center;
+    font-size: 25px;
+    clear: both;
 }
 
 .project-img {
     float: right;
     margin: 25px 10% 25px 25px;
     width: 30%;
-    clear: right;
+}
+
+.project-div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#project-footer {
+    text-align: center;
+    clear: both;
+    font-family: roboto mono, sans-serif;
+    font-size: 20px;
 }
 
 .cert-img {
     width: 65%;
     margin: 25px auto 25px auto;
     display: flex;
-}
-
-#project-header {
-    clear: right;
-}
-
-#project-header {
-    clear: right;
 }
 
 #split {
