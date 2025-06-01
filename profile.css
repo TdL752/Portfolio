@@ -199,6 +199,10 @@ li {
     cursor: pointer;
 }
 
+#nav-menu-btn:active {
+    background-color: transparent;
+}
+
 .active {
     position: absolute;
     top: 55px;
@@ -261,11 +265,11 @@ li {
 @media only screen and (max-width: 600px) {
 
     li {
-        margin-left: 0;
+        margin-left: -15%;
     }
 
     .list-content {
-        margin-left: -10%;
+        margin-left: -20%;
     }
 
     .project-img {
