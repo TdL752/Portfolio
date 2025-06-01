@@ -195,12 +195,7 @@ li {
 }
 
 #nav-menu-btn:hover {
-    background-color: black;
     cursor: pointer;
-}
-
-#nav-menu-btn:active {
-    background-color: transparent;
 }
 
 .active {
