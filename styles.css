@@ -553,4 +553,7 @@
       .certs-grid  { grid-template-columns: 1fr; }
       .exp-item    { grid-template-columns: 1fr; gap: 0.5rem; }
       footer { flex-direction: column; gap: 0.5rem; text-align: center; }
+      #cursor { display: none; }
+      #cursor-ring { display: none; }
+      body { cursor: auto; }
     }
